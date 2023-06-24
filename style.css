@@ -1,0 +1,39 @@
+*{
+    background-color: cadetblue;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+  
+#container{
+    background-color: wheat;
+    border: 5px solid black;
+    height:400px;
+    width:750px;
+    margin: 10%;
+    text-align: center;
+}
+#btn{
+    background-color: whitesmoke;
+    color:brown;
+    border-radius: 6px;
+    margin: 25px auto auto 5px;
+    text-align: center;
+}
+#header{
+    text-align: center;
+    color: aliceblue;
+}
+p{
+    background-color: wheat;
+    text-align: center;
+}
+#userInput{
+    background-color: aliceblue;
+}
+@media (max-width: 768px) {
+    #container{
+      width: 90%;
+    }
+}
